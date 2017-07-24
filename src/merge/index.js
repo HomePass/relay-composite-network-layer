@@ -190,7 +190,7 @@ const implementsNode = type => {
   return interfaces.some(i => i.name === 'Node');
 }
 
-const OPTION_KEYS = ['queryType', 'mutationType'];
+const OPTION_KEYS = ['queryType', 'mutationType', 'subscriptionType'];
 const REQUIRED_OPTIONS = ['queryType'];
 
 const assertOptionsValid = options => {
